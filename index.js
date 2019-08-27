@@ -6,7 +6,7 @@ var friendName = 'Anastasiya';
 console.log  (friendName);
 
 
-//task 2:
+//task 2: //task 2 Условный оператор if:
 
 var x = prompt ("Сколько вам лет?");
         if (x > 16){
@@ -36,8 +36,8 @@ alert ("Sum2 = " + result);
 var result = sum (-5, 20, -14);
 alert ("Sum3 = " + result);
 
-//task 5 Массивы и объекты:
-Задание 1:
+//task 5 Массивы и объекты:Задание 1:
+
 
 var arr = ["привет", "loftschool"];
 arr.push ("я изучаю", "javascript")
@@ -54,10 +54,10 @@ var Arr = [56, 152, 18, 202, 1, 123, 198, 101, 15, 38];
 for (var i = 0; i < Arr.length;  i++) {
     if(i > 100){
         alert (i);
-    }
-    
-   
+    }  
 }
+
+
 
 let user = {     
     name: "Elizabeth",
@@ -89,7 +89,7 @@ alert(Object.keys(user));
     lastName: "Syniakina", 
     age: 29    
  }
-function hello (human){
+function hello (human) {
     var welc = 'Привет, меня зовут ' + name + ' ' + lastName + 'и мне ' + age + 'лет!' ;
     alert( welc );
   }
