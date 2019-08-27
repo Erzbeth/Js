@@ -90,6 +90,9 @@ alert(Object.keys(user));
     age: 29    
  }
 function hello (human) {
-    var welc = 'Привет, меня зовут ' + name + ' ' + lastName + 'и мне ' + age + 'лет!' ;
-    alert( welc );
+    return 'Привет, меня зовут ' + human.name + ' ' + human.lastName + 'и мне ' + human.age + 'лет!' ;
+   
   }
+  
+  var welc = hello (human);
+  alert (welc);
